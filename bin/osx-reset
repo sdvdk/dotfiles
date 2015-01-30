@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#
+# Sets OS X defaults by running $ZSH/osx/setup.sh.
+
+exec $ZSH/osx/set-defaults.sh

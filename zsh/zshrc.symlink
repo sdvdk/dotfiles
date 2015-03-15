@@ -45,3 +45,6 @@ antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen theme sdvdk/zsh-theme sdvdk 
 antigen apply
+
+export PATH="$PATH:$HOME/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
